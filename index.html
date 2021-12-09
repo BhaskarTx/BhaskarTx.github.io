@@ -5,12 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BA | Snorlax</title>
+    <style>
+        #txt-input {
+            width: 80%;
+            height: 10vh;
+            margin: 1rem 0rem;
+            padding: 2rem;
+            border-radius: 2rem;
+        }
+        #txt-output {
+            width: 80%;
+            height: 10vh;
+            margin: 1rem 0rem;
+            padding: 2rem;
+            border-radius: 2rem;
+            border: 1px solid grey;
+        }
+        #btn-click{
+            display: block;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>Speak what Snorlax Speaks !!!</h1>
     <textarea placeholder="Enter text in English to convert ---" name="" id="txt-input" cols="30" rows="10"></textarea>
-    <button id="btn-translate">Click Me</button>
-
+    <div id="btn-click">
+    <button id="btn-translate">Translate It</button>
+</div>
+    <div id="txt-output">
+        Speak what you see . . . 
+    </div>
     <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
