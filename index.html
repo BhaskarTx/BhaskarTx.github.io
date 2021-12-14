@@ -5,13 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BA | Snorlax</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <style>
+        :root{
+            --teal: #14b8a6;
+            --darkTeal: #0d9488;
+            --lightTeal: #5eead4;
+        }
         #txt-input {
+            display: block;
+            text-align: center;
             width: 80%;
             height: 10vh;
             margin: 1rem 0rem;
             padding: 2rem;
             border-radius: 2rem;
+
         }
         #txt-output {
             width: 80%;
@@ -25,10 +36,20 @@
             display: block;
             text-align: center;
         }
+        .container{
+            text-align: center;
+            background-color: var(--lightTeal);
+            padding: 2rem;
+            margin: 0px 0px;
+            font-family: 'Patrick Hand', cursive;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Speak what Snorlax Speaks !!!</h1>
+    <div class="container">
+        <h1>Speak what Minions Speak !!!</h1>
+    </div>
     <textarea placeholder="Enter text in English to convert ---" name="" id="txt-input" cols="30" rows="10"></textarea>
     <div id="btn-click">
     <button id="btn-translate">Translate It</button>
