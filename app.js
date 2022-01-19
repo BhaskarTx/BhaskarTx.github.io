@@ -1,8 +1,8 @@
-var btnTrans = document.querySelector("#btn-translate");
+var btnTrans = document.querySelector("#btn");
+var btnRefresh = document.querySelector("#rfrsh");
 var txtInput = document.querySelector("#txt-input");
 var txtOutput = document.querySelector("#txt-output");
 var serverURL = "https://api.funtranslations.com/translate/groot.json"
-// var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
 
 
@@ -36,4 +36,9 @@ function clickEvent() {
 
 }
 
+function refresh(){
+        location.reload();
+}
+
 btnTrans.addEventListener("click", clickEvent);
+btnRefresh.addEventListener("click", refresh);
