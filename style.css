@@ -68,7 +68,7 @@
             font-size: 18px;
             text-align: left;
             border: 1px solid var(--lightBrown);
-            
+
         }
         #btn-click{
             display: block;
@@ -120,20 +120,20 @@
             width: 80px;
             height: 80px;
             border-right: 2px solid var(--lightBrown);
-            padding-right: 20px;
+            padding-right: 40px;
         }
         .links{
             text-decoration: none;
             color: whitesmoke;
         }
+        footer ul {
+            display: flex;
+            flex-direction: column;
+        }
         footer ul li{
             list-style-type: none
             
         }
-        /* footer ul {
-            text-align: left;
-            
-        } */
         .socialLinks{
             padding: 10px;
             /* font-size: 20px; */
