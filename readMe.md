@@ -46,3 +46,28 @@ ___
 <!-- Image -->
 ![MyLogo](https://user-images.githubusercontent.com/95289741/150116193-bb8e5c0c-2fcc-47aa-b68b-691d715517d9.png)
 
+<!-- GutHub Markdown -->
+
+<!-- Code Blocks -->
+```bash
+    npm install node.js
+    npm start
+```
+```javascript
+function add(num1,num2){
+    return num1+num2
+}
+```
+```css
+.container{
+    backgroud-color: blue;
+}
+```
+
+<!-- Tables -->
+|Name | Email |
+|----|--------|
+|Bhaskar | bhaskar@ba.com|
+|Himanshu Patel| himanshu@hp.com|
+
+<!-- Tasks Lists -->

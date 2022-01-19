@@ -31,6 +31,10 @@
             justify-content: center;
             height: 20vh;
         }
+
+        textarea{
+            resize: none;
+        }
         #txt-input {
             display: block;
             /* text-align: center; */
