@@ -44,4 +44,5 @@ ___
 `this is a code block`
 
 <!-- Image -->
-![MyLogo]("https://github.com/BhaskarTx/Grooot-Translator/blob/main/ba-tx-logo.png")
+![MyLogo](https://user-images.githubusercontent.com/95289741/150116193-bb8e5c0c-2fcc-47aa-b68b-691d715517d9.png)
+
