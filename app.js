@@ -23,6 +23,7 @@ function clickEvent() {
         fetch(getTranslateURL(inputText))
                 .then(response => response.json())
                 .then(json => {
+                                console.log(json)
                                 var translatedText = json.contents.translated;
                                 txtOutput.textContent = translatedText;
                         }
