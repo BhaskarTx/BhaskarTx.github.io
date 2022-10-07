@@ -1,73 +1,27 @@
 <!-- Headings -->
 # Grooot Translator
-## A translator website to convert english language to Groot language
-### A translator website to convert english language to Groot language
-#### A translator website to convert english language to Groot language
-##### A translator website to convert english language to Groot language
+A translator website to convert english language to Groot language, seems interesting? 
 
-<!-- Emphasis Italics-->
-_This is italic text_
+Some of the website insights are as follows:
 
-<!-- Strong -->
-__This is bold text__
+1. Landing page
+![landing](./images/landing.png)
+2. Write input text, and hit translate button !
+![output1](./images/output1.png)
 
-<!-- Strikethrough -->
-~~This is strikethrough~~
+> Technologies/Concepts used :-
+* Vanilla JS
+* CSS
+* HTML
+* fetch API
+* Async calls, catching JSON response and errors
 
-<!-- A hr line separator: underscore or hyphen x3 -->
----
-___
+> API used for the project
+* [fun translations - groot](https://funtranslations.com/api/groot)
+> Platform used to develop project :-
+* [Visual Studio Code](https://code.visualstudio.com/)
+> Platform used to host and deploy the project :-
+* [Github.com](https://github.com/ionbain)
+* [Netlify.com](https://app.netlify.com/teams/bhaskartx/)
 
-<!-- Block Quotes -->
-> Heyyy! This is some block quotes
 
-<!-- Links -->
-[@BhaskarTx](https://github.com/bhaskartx/
-"Bhaskar GitHub Profile")
-
-<!-- UL -->
-* Item 1
-* Item 2
-    * Item 2a
-    * Item 2b
-* Item 3
-* Item 4
-
-<!-- OL -->
-1. Ordered 1
-1. Ordered 2
-1. Ordered 3
-1. Ordered 4
-
-<!-- Inline Code Blocks -->
-`<p>Lorem Ipsum *40 </p>`
-`this is a code block`
-
-<!-- Image -->
-![MyLogo](https://user-images.githubusercontent.com/95289741/150116193-bb8e5c0c-2fcc-47aa-b68b-691d715517d9.png)
-
-<!-- GutHub Markdown -->
-
-<!-- Code Blocks -->
-```bash
-    npm install node.js
-    npm start
-```
-```javascript
-function add(num1,num2){
-    return num1+num2
-}
-```
-```css
-.container{
-    backgroud-color: blue;
-}
-```
-
-<!-- Tables -->
-|Name | Email |
-|----|--------|
-|Bhaskar | bhaskar@ba.com|
-|Himanshu Patel| himanshu@hp.com|
-
-<!-- Tasks Lists -->
